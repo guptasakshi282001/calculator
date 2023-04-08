@@ -6,9 +6,12 @@
     border: 1px solid #ccc;
   }
   
+textarea{
+    resize: none;
+}
+
 #display-input {
-    width: 100%;
-    height: 50px;
+    width: 97%;
     margin-bottom: 4%;
     background-color: #fff;
     text-align: right;
@@ -17,6 +20,7 @@
     box-sizing: border-box;
     border: 1px solid #ccc;
     overflow: auto;
+    margin-left: 1.3%;
 
 }
 
@@ -35,7 +39,7 @@
 
 #buttons >button:nth-child(13){
     margin-top: 50%;
-    margin-left: -71.5%;
+    margin-left: -69.7%;
 }
 
 #buttons >button:nth-child(14){
@@ -48,7 +52,7 @@
 
 #buttons >button:nth-child(17){
     margin-top: 74%;
-    margin-left: -71%;
+    margin-left: -70%;
 }
 
 #buttons >button:nth-child(18){
@@ -61,19 +65,20 @@
 
 #buttons >button:nth-child(21){
     padding-top: 30%;
-    padding-bottom: 39%;
+    padding-bottom: 37.8%;
     background: deepskyblue;
-    margin-left: 3%;
+    margin-left: 1.9%;
 }
 
 #buttons >button:nth-child(23){
     margin-left: 72%;
-    margin-top: -22%;
+    margin-top: -21%;
 }
   
 #buttons {
     display: flex;
     flex-wrap: wrap;
+    width: 105%;
 }
   
 button {
@@ -97,9 +102,23 @@ button {
     #calculator{
         width: 13.6%;
     }
-    #buttons >button:nth-child(21){
-        margin-left: 4%;
+    #buttons >button:nth-child(9){
+        margin-left: -69.5%;
     }
+    #buttons >button:nth-child(21){
+        margin-left: 1%;
+    }
+    #buttons >button:nth-child(13){
+        margin-left: -69.5%;
+    }
+    #buttons >button:nth-child(17){
+        margin-left: -69.5%;
+    }
+    #buttons >button:nth-child(23){
+        margin-left: 72%;
+        margin-top: -20.5%;
+    }
+
 }
 
 @media (max-width:1440px){
